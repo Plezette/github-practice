@@ -1,0 +1,8 @@
+div {
+    height: 100 px;
+    column-count: 3;
+    column-fill: balance;
+    text-align: center;
+    column-rule-style: dotted;
+
+}
