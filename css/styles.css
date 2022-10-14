@@ -1,8 +1,14 @@
-div {
-    height: 100 px;
-    column-count: 3;
-    column-fill: balance;
-    text-align: center;
-    column-rule-style: dotted;
+*{
+    box-sizing: border-box;
+}
+.column {
+    background-color: aqua;
+    float: left;
+    height: 100px;
+    width: 25%;
+    border: 1px solid black;
+}
 
+.clearfix{
+    clear: both;
 }
